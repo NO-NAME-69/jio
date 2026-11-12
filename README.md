@@ -36,29 +36,55 @@
 
 You can run this website on **port 6969** using whichever method you prefer:
 
-### Option 1: Via npm (Recommended)
+### 📥 1. Git Pull & Clone
 ```bash
+# Clone for the first time:
+git clone https://github.com/NO-NAME-69/jio.git
+cd jio
+
+# Or pull the latest changes if already cloned:
+git pull origin main
+```
+
+### 📦 2. Install Dependencies
+```bash
+npm install
+```
+*(Zero heavy third-party packages required — runs instantaneously!)*
+
+### 🚀 3. Start the Server on Port 6969
+```bash
+# Option A: Via npm
 npm start
-```
-*(or `npm run dev`)*
 
-### Option 2: Via Node.js (Zero external dependencies)
-```bash
+# Option B: Via Node.js directly
 node server.js
-```
-*(Runs directly on `http://localhost:6969`)*
 
-### Option 3: Double-click Windows Scripts
-- Double click `run-6969.bat`
-- Or run in PowerShell: `.\run-6969.ps1`
+# Option C: Windows one-click batch launcher
+.\run-6969.bat
 
-### Option 4: Via Python
-```bash
+# Option D: Via Python
 python -m http.server 6969
 ```
 
 Once started, open your browser at:
 👉 **[http://localhost:6969](http://localhost:6969)**
+
+---
+
+## ☁️ Running Directly in GitHub (Codespaces)
+
+You can also run and test the website directly inside GitHub without installing anything locally:
+
+1. Open your repository: **[https://github.com/NO-NAME-69/jio](https://github.com/NO-NAME-69/jio)**
+2. Press the **`.`** (period) key on your keyboard, or click **`<> Code` > `Codespaces` > `Create codespace on main`**.
+3. In the terminal inside GitHub, type:
+   ```bash
+   git pull origin main
+   npm install
+   npm start
+   ```
+4. GitHub Codespaces will detect port `6969` and show a prompt: **"Your application running on port 6969 is available. Open in Browser"**.
 
 ---
 
@@ -96,3 +122,4 @@ To make the website live on GitHub Pages:
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
+
