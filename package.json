@@ -1,0 +1,27 @@
+{
+  "name": "jio-next",
+  "version": "1.0.0",
+  "description": "Next-generation visually stunning Jio True 5G and AirFiber website running on port 6969",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "serve": "node server.js"
+  },
+  "keywords": [
+    "jio",
+    "true-5g",
+    "airfiber",
+    "telecom",
+    "glassmorphism",
+    "speedtest",
+    "interactive",
+    "website"
+  ],
+  "author": "NO-NAME-69",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NO-NAME-69/jio.git"
+  }
+}
